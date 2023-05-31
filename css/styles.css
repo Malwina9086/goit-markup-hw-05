@@ -412,6 +412,33 @@ footer {
   gap: 30px;
 }
 
+.label {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 27px;
+}
+
+.job-label {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+}
+
+.img-label {
+  position: relative;
+  mix-blend-mode: normal;
+}
+
 .our-team-h2 {
   color: #212121;
   font-size: 36px;
