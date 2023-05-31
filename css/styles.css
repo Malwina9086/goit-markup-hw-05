@@ -89,6 +89,38 @@ nav {
   color: #2196f3;
 }
 
+.underscore-index {
+  position: relative;
+  background: #2196f3;
+  top: 28px;
+  border-radius: 2px;
+}
+
+.underscore-index::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background-color: #2196f3;
+}
+
+.underscore-portfolio {
+  position: relative;
+  background: #2196f3;
+  top: 28px;
+  border-radius: 2px;
+}
+
+.underscore-portfolio::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 58px;
+  height: 4px;
+  background-color: #2196f3;
+}
+
 .header-link:hover,
 .header-link:focus {
   color: #2196f3;
@@ -413,10 +445,8 @@ footer {
 }
 
 .label {
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
